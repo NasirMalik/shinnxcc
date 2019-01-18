@@ -1,16 +1,22 @@
 # GYG - Code Challenge (CC)
 
+## Architecture
+
 The app is implemented with the `MVVM` architecture .
 
-Xcode 10.1
-Swift 4.2
-iOS: 12.1
+## SDK & Tools
 
-✔       Separate Network, Model, ViewModel and Controller layers to make project more scaleable
-✔       Generic and project level usage code is seperated into extensions
-✔       Physical groups are created to depict shape of real  project
-✔       Test Cases still needs to be worked on
-✔       Solution can serve as pilot to a scalebale application.
+Xcode 10.1<br />
+Swift 4.2<br />
+iOS: 12.1<br />
+
+## Considerations
+
+✔       Separate Network, Model, ViewModel and Controller layers to make project more scaleable<br /> 
+✔       Generic and project level usage code is seperated into extensions<br />
+✔       Physical groups are created to depict shape of real  project<br />
+✔       Test Cases still needs to be worked on<br />
+✔       Solution can serve as pilot to a scalebale application<br />
 
 
 ## Installation
@@ -29,10 +35,11 @@ pod repo update && pod install
 
 
 ## Dependencies
-The project is using two dependencies:  `Moya` for networking and  `Cosmos`  for Stars in UI.
+The project is using two dependencies:<br />
+`Moya` for networking and  `Cosmos`  for Stars in UI.
 
 
 ## TODOz
 
-✔ As the idea of CC is not a full fledge application so that's why there are some `TODOs` in the code e.g `UITests` and more `UI Tests` are needed. Currently just one `ViewModel` class is being tested  to show the way I write tests.
+✔ As the idea of CC is not a full fledge application so that's why there are some `TODOs` in the code e.g `UITests` and more `UI Tests` are needed. Currently just one `ViewModel` class is being tested  to show the way I write tests.<br />
 ✔  Filter on top right of ViewController was planned but wasn't executed. 
